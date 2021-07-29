@@ -3,10 +3,13 @@ body{
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
-.header{
-    padding-top: 30px;
+
+.container{
     max-width: 1146px;
     margin: auto;
+}
+.header{
+    padding-top: 30px;
 }
 
 .navbar{
