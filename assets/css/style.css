@@ -82,3 +82,66 @@ body{
 .search-button-text{
     margin-left: 5px;
 }
+
+.page-content{
+    display: grid;
+    grid-template-columns: 9fr 3fr;
+    grid-column-gap: 30px;
+}
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+
+.card{
+    margin-bottom: 20px;
+}
+
+.card-header{
+    color:#256EEB;
+}
+
+.card-image{
+    border-radius:10px;
+}
+
+.card-header{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.like{
+    background-color: white;
+    border:none;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.like svg path {
+    fill:#C4C4C4;
+    stroke:inherit;
+    stroke-width:inherit;
+}
+.like svg path:hover {
+    fill:#256EEB;
+    stroke:inherit;
+    stroke-width:inherit;
+}
+
+ .footer-menu{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+ }
+
+ .footer-menu-item{
+
+ }
+
+ .footer-item-link{
+    text-decoration: none;
+    color:inherit;
+ }
