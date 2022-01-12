@@ -1,4 +1,4 @@
-# HTML_WEB_Abito
+# html-web-abito
 Service for placing product ads
 
 ## Technologies used
